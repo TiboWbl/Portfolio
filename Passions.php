@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Centres d'intérêt | Thibaut Weibel</title>
+    
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="pragma" content="no-cache" />
+    
+    <link rel="stylesheet" type="text/css" href="css/styles.css?<?php echo time(); ?>">
+    
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="manifest" href="favicon/site.webmanifest">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar">
+            <img src="img/thibaut2.png" class="photo">
+            <h2 class="logo">Thibaut<span> Weibel</span></h2>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="index.php">Accueil</a></li>
+                    <li><a href="Experience.php">Parcours</a></li>
+                    <li><a href="Passions.php">Centres d'intérêt</a></li>
+                    <li><a href="Contact.php">Contact</a></li>
+                </ul>
+            </div>
+
+            <a href="https://www.ece.fr/" class="btn">Mon école</a>
+            <img src="img/menu_btn.png" alt="menu hamburger" class="menu-hamburger">
+
+            <script>
+                const menuHamburger = document.querySelector(".menu-hamburger")
+                const navLinks = document.querySelector(".nav-links")
+                menuHamburger.addEventListener('click', () => {
+                    navLinks.classList.toggle('mobile-menu')
+                })
+            </script>
+        </nav>
+
+    </header>
+
+    <section class="football" id="foot">
+        <div class="main2">
+            <div class="football-text">
+                <h2>Football</h2>
+                <h5><span>Ma plus grande passion</span></h5>
+                <p>Le football prend une grande place dans ma vie. </br>
+                    C'est effectivement ma plus grande passion depuis mon
+                    plus jeune âge et elle ne fait que grandir. J'adore regarder ce sport que ce soit à la télévision ou
+                    au stade mais aussi le pratiquer avec mes amis en club ou juste pour le plaisir. En effet je suis
+                    dans l'équipe première de mon école et j'en pratique régulièrement avec des amis. Ce que j'aime
+                    particulièrement avec le sport c'est qu'il m'aide à m'évader aussi bien mentalement que
+                    physiquement.
+                </p>
+            </div>
+            <img src="img/messi.jpg">
+        </div>
+    </section>
+
+    <section class="about" id="music">
+
+        <div class="main">
+            <div class="son">
+                <p style="text-align:center; color: white;">Imperfections - Pop Smoke</p></br>
+                <img src="img/imperfection.png">
+                <div style="width:500px; margin: 20px; position:absolute; padding-left: 50px">
+                    <audio controls="true" style="margin:auto;">
+                        <source src="Pop.mp3" type="audio/mpeg">
+                        <source src="pop.ogg" type="audio/ogg">
+                        Votre navigateur ne supporte pas la balise audio.
+                    </audio>
+                </div>
+
+            </div>
+
+            <div class="about-text">
+                <h2>Musique</h2>
+                <h5><span>"La musique peut rendre les hommes libres."</span> Bob Marley</h5>
+                <p>La musique est un instrument de voyage, elle me permet de m'évader ou de me concentrer et c'est pour
+                    cela que je la trouve si importante. En effet, grâce aux différents types de musique qui existent,
+                    nous pouvons écouter certains artistes selon notre humeur ou selon l'activité que l'on fait en même
+                    temps. La musique peut aussi être un instrument de rencontre ou de fête ce qui fait d'elle un atout
+                    pour notre vie sociale.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="football" id="manager">
+        <div class="main2">
+            <div class="football-text">
+                <h2>Manager</h2>
+                <h5><span>Compétence professionnelle</span></h5>
+                <p>Durant mes études, j'ai participé a beaucoup de projets de groupe ce qui m'a permis de
+                    comprendre l'interêt d'avoir un bon manager dans une équipe. Lors de ma 3ème année, mes amis m'ont
+                    souvent désignés manager du groupe car ils me faisaient confiance. Ils savaient que je connaissais
+                    leurs points forts et leurs points faibles et que je saurais combiner toutes les compétences du
+                    goupe pour réussir le projet ensemble.
+                </p>
+            </div>
+            <img src="img/manager.png">
+        </div>
+    </section>
+
+    <section class="about" id="web">
+
+        <div class="main">
+            <div class="main">
+                <div class="son">
+                    <img src="img/code.png">
+                </div>
+
+                <div class="about-text">
+                    <h2>Web / IoT</h2>
+                    <h5><span>Compétences professionnelles</span></h5>
+                    <p>Au cours de mes années d'école d'ingénieur, j'ai pu petit à petit savoir ce que j'aimais vraiment faire. 
+                        En effet, j'apprécie particulièrement les matières "Technologie Web" et "IoT (Internet of Things)" qui 
+                        sont enseignées dans la majeure Objets Connectés, Réseaux & Services à l'ECE Paris. J'aimerais beaucoup
+                        travailler dans le développement Web ou IoT plus tard et si possible en lien avec le sport.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="football" id="sport">
+        <div class="main2">
+            <div class="football-text">
+                <h2>Sport</h2>
+                <h5><span>Passion</span></h5>
+                <p>Le sport occupe une partie très importante de ma vie. J'en pratique comme j'en regarde. Depuis mon plus jeune
+                    âge j'ai pratiqué plusieurs sports en compétition comme le Football, Judo ou encore le Badminton. À côté de cela,
+                    je fais du Tennis ou encore du Basketball régulièrement avec des amis le weekend ou pendant les vacances. 
+                    De plus, je regarde aussi énormément le sport à la télévision, 
+                    c'est mon passe-temps favoris que ce soit le Football, le Basketball, le Tennis, la Formule 1, 
+                    les Jeux Olympiques, je suis au courant de toutes les actualités.
+                </p>
+            </div>
+            <img src="img/sport.png">
+        </div>
+    </section>
+
+    <div class="scroll_to_top">
+        <a href="#top"><img src="img/scroll.jpg" alt="Retourner en haut" /></a>
+    </div>
+
+    <footer>
+        <div class="social">
+            <a href="https://www.facebook.com/profile.php?id=100004305105044"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://github.com/TiboWbl"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/thibaut-weibel-aaba6519b/"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p class="end">Copyright &copy;2022 Thibaut Weibel</p>
+
+    </footer>
+
+</body>
+
+</html>
